@@ -1,0 +1,23 @@
+POST http://localhost:8100/avioncito
+Content-Type: application/json
+
+{
+  "tamano": 300,
+  "ultimoMantenimiento": "25/09/2018",
+  "capacidad": 120,
+  "referencia": "Boeing777",
+  "viajes": [
+    {
+      "origen": "Cancun",
+      "destino": "Bogota"
+    },
+    {
+      "origen": "Paris",
+      "destino": "Tokyo"
+    },
+    {
+      "origen": "cali",
+      "destino": "Medellin"
+    }
+  ]
+}
